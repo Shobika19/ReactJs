@@ -1,70 +1,70 @@
  import React from 'react';
  import ReactDOM, { createRoot } from 'react-dom/client';
-// function Sample(){
-// return <h1>Welcome</h1>
-// }
-// const r1=ReactDOM. createRoot(document.getElementById('root'));
-// r1.render(<Sample/>);
+function Sample(){
+return <h1>Welcome</h1>
+}
+const r1=ReactDOM. createRoot(document.getElementById('root'));
+r1.render(<Sample/>);
 
-// import React from 'react';
-// import ReactDOM, { createRoot } from 'react-dom/client';
+import React from 'react';
+import ReactDOM, { createRoot } from 'react-dom/client';
 
-// function Sample(){
-// return (
-// <div>
-//    <label>Username</label>
-//    <input type="text"placeholder='Enter the Username'></input>
-//    <br/>
-//    <label>Password</label>
-//    <input type="password" placeholder='Enter the Password'></input>
-//    <br/>
-// <button>Submit</button>
-// </div>
-
-
-//   const r1=ReactDOM. createRoot(document.getElementById('root'));
-//  r1.render(<Sample/>);
-// import React from 'react';
-// import ReactDOM, { createRoot } from 'react-dom/client';
-// const Sample=()=>{
-//   return(
-//     <div>
-//       <h1>My First React App</h1>
-//       <p>React is a Javascript Library</p>
-
-//     </div>
-//   )
-// }
-// const r1=ReactDOM. createRoot(document.getElementById('root'));
-// r1.render(<Sample/>);
+function Sample(){
+return (
+<div>
+   <label>Username</label>
+   <input type="text"placeholder='Enter the Username'></input>
+   <br/>
+   <label>Password</label>
+   <input type="password" placeholder='Enter the Password'></input>
+   <br/>
+<button>Submit</button>
+</div>
 
 
-// import React from 'react';
-// import ReactDOM, { createRoot } from 'react-dom/client';
+  const r1=ReactDOM. createRoot(document.getElementById('root'));
+ r1.render(<Sample/>);
+import React from 'react';
+import ReactDOM, { createRoot } from 'react-dom/client';
+const Sample=()=>{
+  return(
+    <div>
+      <h1>My First React App</h1>
+      <p>React is a Javascript Library</p>
 
-//   const App=()=>{
-//   const Username="shobi" 
-//   const password="123456"
-//   return(
-//     <div>
-//       <h1>My First React App{Username}and{password}</h1>
-//       <p>{new Date().toLocalDateString()}</p>
-//       <p>My First react App</p>
-//       <label>Username</label>
-//       <input type="text"placeholder='Enter the Username'></input>
-//       <br/>
-//       <label>Password</label>
-//       <input type="password" placeholder='Enter the Password'></input>
-//       <br/>
-//       <button>Submit</button>
-//     </div>
-//   )
-// }
-// const r1=ReactDOM. createRoot(document.getElementById('root'));
-// r1.render(<App/>);
+    </div>
+  )
+}
+const r1=ReactDOM. createRoot(document.getElementById('root'));
+r1.render(<Sample/>);
 
 
-/*import React from 'react';
+import React from 'react';
+import ReactDOM, { createRoot } from 'react-dom/client';
+
+  const App=()=>{
+  const Username="shobi" 
+  const password="123456"
+  return(
+    <div>
+      <h1>My First React App{Username}and{password}</h1>
+      <p>{new Date().toLocalDateString()}</p>
+      <p>My First react App</p>
+      <label>Username</label>
+      <input type="text"placeholder='Enter the Username'></input>
+      <br/>
+      <label>Password</label>
+      <input type="password" placeholder='Enter the Password'></input>
+      <br/>
+      <button>Submit</button>
+    </div>
+  )
+}
+const r1=ReactDOM. createRoot(document.getElementById('root'));
+r1.render(<App/>);
+
+
+import React from 'react';
 import ReactDOM, { createRoot } from 'react-dom/client';
 
 const App = () => {
@@ -89,11 +89,11 @@ const App = () => {
 
 const root = document.getElementById('root');
 const rootElement = createRoot(root); // Use createRoot for concurrent mode
-rootElement.render(<App />);*/
+rootElement.render(<App />);
 
 
 
-/*import React from 'react';
+import React from 'react';
 import ReactDOM, { createRoot } from 'react-dom/client';  
 const myelm1=<h1>Welcome</h1>
 const myelm2=<p>React is Javascript Library for building user Interfaces.</p>
@@ -120,18 +120,18 @@ const myelm8=(
 );
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(myelm8);*/
+root.render(myelm8);
 //without using 
-/*import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 const myElement = React.createElement('p', {}, 'I do not use JSX');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(myElement);*/
+root.render(myElement);
 
 
-/*import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 const App=()=>{
   return(
@@ -147,10 +147,10 @@ const App=()=>{
   )
 }
   const root = ReactDOM.createRoot(document.getElementById('root'));
-  root.render(<App />);*/
+  root.render(<App />);
 
   //Fragment Tag
-/*import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
   const App=()=>{
     return(
@@ -161,11 +161,11 @@ import ReactDOM from 'react-dom/client';
     )  
   }
   const root = ReactDOM.createRoot(document.getElementById('root'));
-  root.render(<App/>);*/
+  root.render(<App/>);
 
   //Importing CSS and Importing Bootstrap
 
-/*import './index.css';
+import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 const App=()=>{
@@ -181,10 +181,10 @@ const App=()=>{
   )
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App/>);*/
+root.render(<App/>);
 
 //condition Rendering
-/*import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 const x=11
 let text="";
@@ -205,9 +205,9 @@ const Myelem=()=>{
   )
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Myelem/>);*/
+root.render(<Myelem/>);
 
-/*import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
  
 class Sample extends React.Component{
@@ -221,10 +221,10 @@ class Sample extends React.Component{
   }
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Sample/>);*/
+root.render(<Sample/>);
 
 //Form in React
-/*import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 const App=()=>{
 return(
@@ -247,10 +247,10 @@ return(
 )
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App/>);*/
+root.render(<App/>);
 
 //Function component
-/*function Sample (props)
+function Sample (props)
 {
   return(
     <div>
@@ -261,10 +261,10 @@ root.render(<App/>);*/
   )
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Sample/>);*/
+root.render(<Sample/>);
 
 //Component in Component
-/*function Sample1()
+function Sample1()
 {
   return(
   <div>
@@ -285,10 +285,10 @@ function Sample2()
   )
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Sample2/>);*/
+root.render(<Sample2/>);
 
 //component constructor
-/*class Sample1 extends React. Component
+class Sample1 extends React. Component
 {
   constructor(){
     super();
@@ -305,9 +305,9 @@ root.render(<Sample2/>);*/
   }
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Sample1/>);*/
+root.render(<Sample1/>);
 //using constructor
-/*class Header extends React.Component
+class Header extends React.Component
 {
   text="welcome"
   constructor()
@@ -327,7 +327,7 @@ root.render(<Sample1/>);*/
   }
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Header/>);*/
+root.render(<Header/>);
 
 import Sample from './App.js'
 const root = ReactDOM.createRoot(document.getElementById('root'));
